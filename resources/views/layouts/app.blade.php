@@ -79,11 +79,7 @@
     <!--Content body end-->
 
     <!--Footer start-->
-    <div class="footer">
-        <div class="copyright">
-            <p>Copyright © Designed &amp; Developed by <a href="#" target="_blank">Muhammet Ali Fidan - Emre Baran Arca - Mehmet Tağıl - Ahmet Yıldırım</a> 2024</p>
-        </div>
-    </div>
+    @include('inc.footer');
     <!--Footer end-->
 </div>
 

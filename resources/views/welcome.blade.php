@@ -900,7 +900,7 @@
             <main class="mt-6">
                 <div class="grid gap-12 lg:grid-cols-1 lg:gap-8">
                     <a
-                        href="https://laravel.com/docs"
+                        href="https://github.com/MhmmtAliFDN/medical-waste-tracking"
                         id="docs-card"
                         class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
                     >
@@ -918,12 +918,43 @@
                                 </div>
 
                                 <div class="pt-3 sm:pt-5 lg:pt-0">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">{{"TIBBİ ATIK TAKİP SİSTEMİ"}}</h2>
+                                    <h2 class="text-xl font-semibold text-black dark:text-white">TIBBİ ATIK TAKİP SİSTEMİ REHBERİ</h2>
 
                                     <p class="mt-4 text-sm/relaxed text-white">
-                                        {{"Çanakkale Onsekiz Mart Üniversitesi'nde 3. sınıf bilgisayar mühendisliği öğrencileri olan
+                                        Çanakkale Onsekiz Mart Üniversitesi'nde 3. sınıf bilgisayar mühendisliği öğrencileri olan
                                         Muhammet Ali FİDAN, Emre Baran ARCA, Ahmet YILDIRIM ve Mehmet TAĞIL tarafından geliştirilmiştir.
-                                        Yandaki oka tıklayarak açık kaynak kodlu olan bu projeyi GITHUB üzerinden inceleyebilirsiniz."}}
+                                        Yandaki oka tıklayarak açık kaynak kodlu olan bu projeyi GITHUB üzerinden inceleyebilirsiniz.
+                                    </p>
+
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Bu proje, hastanelerde doktor ve hemşirelerin biriken tıbbi atıklarının listesini tutar. Personeller
+                                        aracılığıyla temizlenen atıkların bilgisini kaydeder. Yetkili memurlar tarafından raporlar oluşturulmasına
+                                        olanak verir. Yöneticiler, yeni personelleri sisteme kaydeder ve sistemleri güncelleyerek raporları inceler.
+                                    </p>
+
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Projedeki her bir rolün kendine özel yetkileri vardır. Bu roller ile giriş yapmak için aşağıdaki email adreslerini
+                                        kullanabilirsiniz.<br>
+                                        --eposta: yonetici1@memur.com --parola: password<br>
+                                        --eposta: doktor1@memur.com --parola: password<br>
+                                        --eposta: hemsire1@memur.com --parola: password<br>
+                                        --eposta: atiktoplamapersoneli1@memur.com --parola: password<br>
+                                        --eposta: yetkilimemur1@memur.com --parola: password<br>
+                                        --eposta: user1@memur.com --parola: password<br>
+                                    </p>
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Doktor/Hemşire: Atık ekleyebilir. Eklediği atık kaydını güncelleyebilir ve silebilir. Başkasının atığını
+                                        silmeye çalıştığında yetkiniz yok hatası alır. Eğer eklemek istediği atık ile birlikte konteynerdeki
+                                        atık miktarı 100'ü geçerse 'Personel çağırınız.' uyarısı alır.
+                                    </p>
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Atık Toplama Personeli: Atık listesini görür. Konteyneri boşaltabilir.
+                                    </p>
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Yetkili Memur: Atık listesini görür. Atık listesine göre rapor oluşturabilir.
+                                    </p>
+                                    <p class="mt-4 text-sm/relaxed text-white">
+                                        Yönetici: Raporları inceleyip, düzenleyebilir veya silebilir. Kullanıcılara rolleri atar.
                                     </p>
                                 </div>
                             </div>
